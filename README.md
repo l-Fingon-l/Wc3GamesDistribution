@@ -26,7 +26,7 @@ I did rewrite the engine so it could handle the latest version of replays.
 
 As the internal parsing engine have been slightly optimised, the whole pack of ***~900 replays*** took just about 4.5 seconds to get parsed in total.  
 
-Which means we got close to **(10^3)x** running time speedup on a **~10^3** items sample with just a handful of simple optimizations in a totally unknown codebase in a couple of hours.
+Which means we got close to **(10^3)x** running time speedup on a **~10^3** items sample with just a handful of simple optimizations in a totally unknown codebase in a couple of hours. Oh, and by the way, it was my first time to work with Python.
 
 <details>
   <summary>Optimization process</summary>
