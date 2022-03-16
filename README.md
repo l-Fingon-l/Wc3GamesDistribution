@@ -9,11 +9,11 @@ This repo consists of a set of tiny scripts for Warcraft 3 game history visualiz
 #### Games by date
 ![games-by-date](images/games-by-date.jpg)
 
-#### Games by hour
-![games-by-hour](images/games-by-hour.jpg)
-
 #### Winrate by hour
 ![winrate-by-hour](images/winrate-by-hour.jpg)
+
+#### Win-loss by hour
+![win-loss-by-hour](images/win-loss-by-hour.jpg)
 
 # w3g py lib & optimizations
 The underlying library used for replay parsing was the [*w3g lib*](https://pypi.org/project/w3g/) by [*Anthony Scopatz*](https://pypi.org/user/scopatz/).  
