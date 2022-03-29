@@ -22,11 +22,11 @@ This is one of the very few w3g python libraries out there and it's written in a
 However, at the point of creation of this project the library had been abandoned by its maintainer and ***it was crashing*** on newer replays.  
 I did rewrite the engine so it could handle the latest version of replays.  
 
-***The second issue was the perfomance***: as clean as the code has been, the library was literally unsuitable for use on large samples of data, - each replay file could take up to 3-5 seconds to parse.  
+***The second issue was the performance***: as clean as the code has been, the library was literally unsuitable for use on large samples of data, - each replay file could take up to 3-5 seconds to parse.  
 
-As the internal parsing engine have been slightly optimised, the whole pack of ***~900 replays*** took just about 4.5 seconds to get parsed in total.  
+As the internal parsing engine has been slightly optimised, the whole pack of ***~900 replays*** took just about 4.5 seconds to get parsed in total.  
 
-Which means we got close to **(10^3)x** running time speedup on a **~10^3** items sample with just a handful of simple optimizations in a totally unknown codebase in a couple of hours. Oh, and by the way, it was my first time to work with Python.
+Which means we got close to **(10^3)x** running time speedup on a **~10^3** items sample with just a handful of simple optimizations in a totally unknown codebase in a couple of hours. Oh, and by the way, it was my first time working with Python.
 
 <details>
   <summary>Optimization process</summary>
